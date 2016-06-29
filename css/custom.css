@@ -1,40 +1,23 @@
 /* CUSTOM
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .first{
-    width:500px;}
-
-/* image hover
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.imgWrap {
-  position: relative;
-/*
-  height: 200px;
-  width: 257px;
-*/
+  max-width:500px;
 }
 
-.imgDescription {
-    text-align: center;
-  position: inherit;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-/*  background: rgba(0, 0, 5, 0.52);*/
-  color: #000;
-  visibility: hidden;
-  opacity: 0;
-
-  /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
+.image { 
+   position: relative; 
+   max-width:500px; /* for IE 6 */
 }
 
+h2 { 
+   position: absolute; 
+   top: 100px;
+   right: 10px;
+   text-align: right;
+   width: 100%; 
+   font-size: 1.3em;
+}    
 
-.imgWrap:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
-}
 
 /* back button
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
