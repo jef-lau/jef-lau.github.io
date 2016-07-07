@@ -8,6 +8,9 @@
   cursor: pointer;
 }
 
+.bio {
+  padding-top: 5%;
+}
 
 /* text overlay images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -21,13 +24,14 @@
   width:100%;
 }
 
-.image h2 { 
-   position: absolute; 
-   top: 62%;
-   right: -2px;
-   text-align: right;
-   width: 100%; 
-   font-size: 1.3em;
+.image span { 
+  position: absolute; 
+  top: 62%;
+  right: -2px;
+  text-align: right;
+  width: 100%; 
+  font-size: 1.4em;
+  line-height: 2;
 }    
 
 .web-image { 
@@ -38,6 +42,13 @@
 
 .web-image img {
   width:100%;
+  opacity: .7; 
+  -webkit-filter: grayscale(60%);
+}
+
+.web-image img:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
 }
 
 .web-image h2 { 
@@ -63,6 +74,10 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .banner {
   padding: 5px;
+}
+
+.align-left {
+  float: left;
 }
 
 /* hover image
@@ -128,4 +143,25 @@
 #graphicdesign hr {
   padding: 3px;
   margin: 0;
+}
+
+
+.web-thumbs {
+  width:25%;
+  float:left;
+  padding: 10px;
+}
+
+.web-thumbs img {
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+.web-thumb-bg {
+  background-color: #707070;
+}
+
+.web-thumb-bg-round {
+  background-color: #707070;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;  
 }
