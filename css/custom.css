@@ -152,10 +152,6 @@
   padding: 10px;
 }
 
-.web-thumbs img {
-  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-}
-
 .web-thumb-bg {
   background-color: #EAEAEA;
 }
@@ -164,4 +160,24 @@
   background-color: #EAEAEA;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;  
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+
+/* graphic design
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.graphic-thumbs {
+  float:left;
+  padding: 10px;
+}
+
+.graphic-5-col {
+  width: 20%;
+}
+
+.graphic-3-col {
+  width: 33%;
+}
+
+.graphic-4-col {
+  width: 25%;
 }
