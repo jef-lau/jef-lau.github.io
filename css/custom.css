@@ -170,14 +170,28 @@
   padding: 10px;
 }
 
-.graphic-5-col {
-  width: 20%;
+.graphic-2-col {
+  width: 50%;
 }
 
 .graphic-3-col {
   width: 33%;
 }
 
+.graphic-3b-col {
+  width: 17%;
+}
+
 .graphic-4-col {
   width: 25%;
+}
+
+.graphic-5-col {
+  width: 20%;
+}
+
+.campaign-height {
+
+  height: 250px;
+  width: auto;
 }
