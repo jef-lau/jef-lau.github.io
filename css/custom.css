@@ -12,6 +12,29 @@
   padding-top: 5%;
 }
 
+.bio img {
+  height: 200px;
+  width: auto;
+}
+
+.bio h6 {
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.5em;
+}
+
+.bio-text {
+  padding-top: 7px;
+  padding-bottom: 15px;
+  width: 250px;
+  margin: 0 auto; 
+}
+
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
 /* text overlay images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .image { 
@@ -158,9 +181,9 @@
 
 .web-thumb-bg-round {
   background-color: #EAEAEA;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;  
-  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;  
+  box-shadow: rgba(0,0,0,.15) 3px 3px 3px;
 }
 
 /* graphic design
