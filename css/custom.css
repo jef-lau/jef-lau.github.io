@@ -24,15 +24,31 @@
 }
 
 .bio-text {
-  padding-top: 7px;
   padding-bottom: 15px;
   width: 250px;
   margin: 0 auto; 
 }
 
+.bio-buttons a{
+  color: #000;
+  text-decoration: none;
+}
+
+.no-dec{
+  color: #000;
+  text-decoration: none;
+}
+
 .no-padding {
   padding: 0;
   margin: 0;
+}
+
+.banner-text {
+  color: #FFF;
+  text-decoration: none;  
+  text-shadow: 1px 1px 6px #000;
+  margin-right:15px;
 }
 
 /* text overlay images
@@ -45,6 +61,11 @@
 
 .image img {
   width:100%;
+  -webkit-filter: grayscale(1);
+}
+
+.image img:hover {
+  -webkit-filter: grayscale(0);
 }
 
 .image span { 
