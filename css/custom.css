@@ -32,11 +32,7 @@
 .bio-buttons a{
   color: #000;
   text-decoration: none;
-}
-
-.bio-buttons i {
-  padding-left: 7px;
-  padding-right: 7px;
+  margin: 7px;
 }
 
 
