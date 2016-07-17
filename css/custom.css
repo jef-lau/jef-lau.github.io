@@ -57,6 +57,22 @@
   margin-right:15px;
 }
 
+.banner-header {
+  color: #000;
+  text-decoration: none;  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 39px;
+  text-align: right;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
+.exit-modal {
+  font-size: 1em;
+}
+
 /* text overlay images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .image { 
